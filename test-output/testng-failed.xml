@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.fabHotels.test.Search_From_Screen_Test">
+        <methods>
+          <include name="Launch_Application_And_Skip_OTP_Verification_Test"/>
+          <include name="initiateApplication"/>
+          <include name="closeApplication"/>
+          <include name="Verify_Search_Form_Screen_Opens_Up_When_User_Taps_On_Search_Text_Field"/>
+        </methods>
+      </class> <!-- com.fabHotels.test.Search_From_Screen_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
